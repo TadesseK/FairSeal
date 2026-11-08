@@ -1,0 +1,522 @@
+{
+  "contract": {
+    "choice": "Both full pooled useful-class and explicit common-W requirements, construction-only.",
+    "confirmation_fairness": "All source-frozen qualifiers at most5pp. No target requalification.",
+    "construction_fairness": "All frozen qualifiers at most4pp onS/U/E and exposedGA2025/FL2025.",
+    "family_size": 165256,
+    "inclusive_near_optimality": 0.01,
+    "native_utility": "Original primaryNI and BASE safeguards, fixed D-onlyf0.",
+    "physical_cap": 300,
+    "qualifying_family": "Full-family ranking retains all unsafe competitors."
+  },
+  "current_fixed_targets": [
+    {
+      "cohort_role": "PRIMARY_NEW_GEOGRAPHY",
+      "declared_cases": 6,
+      "eligible_rows": 32177,
+      "evaluated_arms": 16,
+      "freshness_scope": "Fresh to accessible recorded HMDA analysis only; outside-history access unknown; no universal never-seen or borrower-independence claim",
+      "id": "NC2025",
+      "independent_receipt": "post_confirmation/resume_v7/verification/nc2025_all6_raw_allH_v1/INDEPENDENT_TARGET_RECEIPT.json",
+      "independent_receipt_sha256": "19f2f622f57bb6ffeb829c6e918f41e557ddfd6ed39fa620cb27a33f6dda1b19",
+      "panels": [
+        {
+          "accepted": 0,
+          "cases": [
+            {
+              "all_frozen_Q_F5": false,
+              "arm_id": "complete_with_choice",
+              "baseline": 81488,
+              "case_id": "v7fresh_2026110501",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 3366,
+              "k": 34,
+              "native": 81488,
+              "native_accuracy": 0.9360723498150854,
+              "native_primary_utility": true,
+              "passed": false,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_FAIL",
+              "worst_Q_gap": 0.052888130882631196
+            },
+            {
+              "all_frozen_Q_F5": false,
+              "arm_id": "complete_with_choice",
+              "baseline": 11453,
+              "case_id": "v7fresh_2026110502",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 511,
+              "k": 37,
+              "native": 11453,
+              "native_accuracy": 0.9288311526867017,
+              "native_primary_utility": true,
+              "passed": false,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_FAIL",
+              "worst_Q_gap": 0.06080117070464605
+            },
+            {
+              "case_id": "v7fresh_2026110503",
+              "passed": false,
+              "source_status": "NO_ACCEPTED_SEAL",
+              "status": "NO_ACCEPTED_SEAL",
+              "target_baselines_and_controls_evaluated": [
+                "unchanged",
+                "direct_reference_single_model"
+              ]
+            }
+          ],
+          "denominator": 3,
+          "panel_id": "A_ORIGINAL_JOINT_PRIMARY",
+          "selected_source_failures_stay_in_denominator": true
+        },
+        {
+          "accepted": 2,
+          "cases": [
+            {
+              "case_id": "v7fresh_2026110511",
+              "passed": false,
+              "source_status": "NO_ACCEPTED_SEAL",
+              "status": "NO_ACCEPTED_SEAL",
+              "target_baselines_and_controls_evaluated": [
+                "unchanged",
+                "direct_reference_single_model"
+              ]
+            },
+            {
+              "all_frozen_Q_F5": true,
+              "arm_id": "complete_with_choice",
+              "baseline": 61128,
+              "case_id": "v7fresh_2026110512",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 1092,
+              "k": 50,
+              "native": 48597,
+              "native_accuracy": 0.9360412717158219,
+              "native_primary_utility": true,
+              "passed": true,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_PASS",
+              "worst_Q_gap": 0.04628561169405562
+            },
+            {
+              "all_frozen_Q_F5": true,
+              "arm_id": "complete_with_choice",
+              "baseline": 12032,
+              "case_id": "v7fresh_2026110513",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 1903,
+              "k": 72,
+              "native": 46685,
+              "native_accuracy": 0.9401125027193337,
+              "native_primary_utility": true,
+              "passed": true,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_PASS",
+              "worst_Q_gap": 0.024766204681718234
+            }
+          ],
+          "denominator": 3,
+          "panel_id": "B_CORRECTED_JOINT_PRIMARY",
+          "selected_source_failures_stay_in_denominator": true
+        }
+      ],
+      "raw_query_rows": 189513,
+      "raw_sha256": "28e5e0b361f2a8d3a1b7952dd8d269cc672f53613a46764af2c8f0accad2d836",
+      "scope": "Exactfiniteofficialpublicroster;allcasepanelswithincohortsharethesameroster",
+      "verification_coverage": {
+        "all_H_banks_replayed": 6,
+        "arms_replayed": 16,
+        "manual_model_banks_replayed": 6,
+        "predefined_cases": 6
+      }
+    },
+    {
+      "cohort_role": "SECONDARY_EXPOSED_GEOGRAPHY_NEW_YEAR",
+      "declared_cases": 6,
+      "eligible_rows": 67539,
+      "evaluated_arms": 16,
+      "freshness_scope": "Fresh to accessible recorded HMDA analysis only; outside-history access unknown; no universal never-seen or borrower-independence claim",
+      "id": "FL2024",
+      "independent_receipt": "post_confirmation/resume_v7/verification/fl2024_all6_raw_allH_v1/INDEPENDENT_TARGET_RECEIPT.json",
+      "independent_receipt_sha256": "77cc545c604f7aa814f008dfbb458f7e48ef9ae8ff0cfb0e8b8605d27e418f0a",
+      "panels": [
+        {
+          "accepted": 2,
+          "cases": [
+            {
+              "all_frozen_Q_F5": true,
+              "arm_id": "complete_with_choice",
+              "baseline": 81488,
+              "case_id": "v7fresh_2026110501",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 3366,
+              "k": 34,
+              "native": 81488,
+              "native_accuracy": 0.9023231022076134,
+              "native_primary_utility": true,
+              "passed": true,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_PASS",
+              "worst_Q_gap": 0.03552064425123379
+            },
+            {
+              "all_frozen_Q_F5": true,
+              "arm_id": "complete_with_choice",
+              "baseline": 11453,
+              "case_id": "v7fresh_2026110502",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 511,
+              "k": 37,
+              "native": 11453,
+              "native_accuracy": 0.8985475058854884,
+              "native_primary_utility": true,
+              "passed": true,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_PASS",
+              "worst_Q_gap": 0.034296711435956063
+            },
+            {
+              "case_id": "v7fresh_2026110503",
+              "passed": false,
+              "source_status": "NO_ACCEPTED_SEAL",
+              "status": "NO_ACCEPTED_SEAL",
+              "target_baselines_and_controls_evaluated": [
+                "unchanged",
+                "direct_reference_single_model"
+              ]
+            }
+          ],
+          "denominator": 3,
+          "panel_id": "A_ORIGINAL_JOINT_PRIMARY",
+          "selected_source_failures_stay_in_denominator": true
+        },
+        {
+          "accepted": 2,
+          "cases": [
+            {
+              "case_id": "v7fresh_2026110511",
+              "passed": false,
+              "source_status": "NO_ACCEPTED_SEAL",
+              "status": "NO_ACCEPTED_SEAL",
+              "target_baselines_and_controls_evaluated": [
+                "unchanged",
+                "direct_reference_single_model"
+              ]
+            },
+            {
+              "all_frozen_Q_F5": true,
+              "arm_id": "complete_with_choice",
+              "baseline": 61128,
+              "case_id": "v7fresh_2026110512",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 1092,
+              "k": 50,
+              "native": 48597,
+              "native_accuracy": 0.901967751965531,
+              "native_primary_utility": true,
+              "passed": true,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_PASS",
+              "worst_Q_gap": 0.04064889165744523
+            },
+            {
+              "all_frozen_Q_F5": true,
+              "arm_id": "complete_with_choice",
+              "baseline": 12032,
+              "case_id": "v7fresh_2026110513",
+              "failed_native_utility_clauses": [],
+              "frozen_Q_size": 1903,
+              "k": 72,
+              "native": 46685,
+              "native_accuracy": 0.899332237670087,
+              "native_primary_utility": true,
+              "passed": true,
+              "source_status": "ACCEPTED_COMPLETE_SEAL",
+              "status": "TARGET_PASS",
+              "worst_Q_gap": 0.04197395913527009
+            }
+          ],
+          "denominator": 3,
+          "panel_id": "B_CORRECTED_JOINT_PRIMARY",
+          "selected_source_failures_stay_in_denominator": true
+        }
+      ],
+      "raw_query_rows": 385979,
+      "raw_sha256": "66a93abf61477960c1bddd90407d9b6e2c75c6a32a8a4523061d7ecfa8e8faf9",
+      "scope": "Exactfiniteofficialpublicroster;allcasepanelswithincohortsharethesameroster",
+      "verification_coverage": {
+        "all_H_banks_replayed": 6,
+        "arms_replayed": 16,
+        "manual_model_banks_replayed": 6,
+        "predefined_cases": 6
+      }
+    }
+  ],
+  "current_source_studies": [
+    {
+      "cases": [
+        {
+          "Q_size": 3366,
+          "accepted_joint_nonzero_repair": true,
+          "accepted_nonzero_repair": false,
+          "both_original_choice_clauses_pass": true,
+          "case_id": "v7fresh_2026110501",
+          "certified_joint_C_lower": 33,
+          "exact_joint_C_minimum_proved": false,
+          "initially_joint_unfair_family": true,
+          "initially_source_unfair_family": false,
+          "joint_C_interval": [
+            33,
+            34
+          ],
+          "joint_max_Q_gap": 0.03873815899828572,
+          "k": 34,
+          "native": 81488,
+          "pooled_classes": 532,
+          "pooled_mean": 0.010183352032383422,
+          "seed": 2026110501,
+          "source_max_Q_gap": 0.02169593803703989,
+          "status": "VERIFIED_JOINT_DEVELOPMENT_REPAIR_SOURCE_FAIR",
+          "whole_case_cap_seconds": 480.0
+        },
+        {
+          "Q_size": 511,
+          "accepted_joint_nonzero_repair": true,
+          "accepted_nonzero_repair": false,
+          "both_original_choice_clauses_pass": true,
+          "case_id": "v7fresh_2026110502",
+          "certified_joint_C_lower": 36,
+          "exact_joint_C_minimum_proved": false,
+          "initially_joint_unfair_family": true,
+          "initially_source_unfair_family": false,
+          "joint_C_interval": [
+            36,
+            37
+          ],
+          "joint_max_Q_gap": 0.03999432969824979,
+          "k": 37,
+          "native": 11453,
+          "pooled_classes": 205,
+          "pooled_mean": 0.010399099262790814,
+          "seed": 2026110502,
+          "source_max_Q_gap": 0.014165795072950793,
+          "status": "VERIFIED_JOINT_DEVELOPMENT_REPAIR_SOURCE_FAIR",
+          "whole_case_cap_seconds": 480.0
+        },
+        {
+          "case_id": "v7fresh_2026110503",
+          "certified_joint_C_lower": 41,
+          "initially_joint_unfair_family": true,
+          "initially_source_unfair_family": true,
+          "seed": 2026110503,
+          "status": "NO_ACCEPTED_SEAL",
+          "whole_case_cap_seconds": 480.0
+        }
+      ],
+      "complete_joint_seals": {
+        "accepted": 2,
+        "denominator": 3
+      },
+      "initially_joint_unfair_repair": {
+        "accepted": 2,
+        "assessable": true,
+        "denominator": 3
+      },
+      "initially_source_unfair_repair": {
+        "accepted": 0,
+        "assessable": true,
+        "denominator": 1
+      },
+      "label": "A: Original primary procedure",
+      "panel_id": "A_ORIGINAL_JOINT_PRIMARY",
+      "receipt": "post_confirmation/resume_v7/verification/fresh_joint_cases_independent_v2/INDEPENDENT_FRESH_JOINT_CASE_REPLAY.json",
+      "receipt_sha256": "7ffb3a716d514324315ea6d4e2ff428880f657f24e98269e008ea7daae59123a",
+      "verification_coverage": {
+        "accepted_joint_seals_verified": 2,
+        "development_bank_cohort_pairs_replayed": 6,
+        "expected_development_bank_cohort_pairs": 6,
+        "fitting_provenance_banks": 3,
+        "predefined_source_cases": 3,
+        "source_baselines_reconstructed": 3,
+        "source_model_banks_replayed": 3
+      }
+    },
+    {
+      "cases": [
+        {
+          "case_id": "v7fresh_2026110511",
+          "certified_joint_C_lower": 19,
+          "initially_joint_unfair_family": true,
+          "initially_source_unfair_family": false,
+          "seed": 2026110511,
+          "status": "NO_ACCEPTED_SEAL",
+          "whole_case_cap_seconds": 310.0
+        },
+        {
+          "Q_size": 1092,
+          "accepted_joint_nonzero_repair": true,
+          "accepted_nonzero_repair": false,
+          "both_original_choice_clauses_pass": true,
+          "case_id": "v7fresh_2026110512",
+          "certified_joint_C_lower": 36,
+          "exact_joint_C_minimum_proved": false,
+          "initially_joint_unfair_family": true,
+          "initially_source_unfair_family": false,
+          "joint_C_interval": [
+            36,
+            50
+          ],
+          "joint_max_Q_gap": 0.03890492677836138,
+          "k": 50,
+          "native": 48597,
+          "pooled_classes": 182,
+          "pooled_mean": 0.010013649444006671,
+          "seed": 2026110512,
+          "source_max_Q_gap": 0.01692129332541974,
+          "status": "VERIFIED_JOINT_DEVELOPMENT_REPAIR_SOURCE_FAIR",
+          "whole_case_cap_seconds": 310.0
+        },
+        {
+          "Q_size": 1903,
+          "accepted_joint_nonzero_repair": true,
+          "accepted_nonzero_repair": true,
+          "both_original_choice_clauses_pass": true,
+          "case_id": "v7fresh_2026110513",
+          "certified_joint_C_lower": 32,
+          "exact_joint_C_minimum_proved": false,
+          "initially_joint_unfair_family": true,
+          "initially_source_unfair_family": true,
+          "joint_C_interval": [
+            32,
+            72
+          ],
+          "joint_max_Q_gap": 0.0393488364125693,
+          "k": 72,
+          "native": 46685,
+          "pooled_classes": 180,
+          "pooled_mean": 0.010433484196768508,
+          "seed": 2026110513,
+          "source_max_Q_gap": 0.018988592272837654,
+          "status": "VERIFIED_NONZERO_REPAIR_OF_INITIALLY_UNFAIR_FAMILY",
+          "whole_case_cap_seconds": 310.0
+        }
+      ],
+      "complete_joint_seals": {
+        "accepted": 2,
+        "denominator": 3
+      },
+      "initially_joint_unfair_repair": {
+        "accepted": 2,
+        "assessable": true,
+        "denominator": 3
+      },
+      "initially_source_unfair_repair": {
+        "accepted": 1,
+        "assessable": true,
+        "denominator": 1
+      },
+      "label": "B: Corrected follow-up procedure",
+      "panel_id": "B_CORRECTED_JOINT_PRIMARY",
+      "receipt": "post_confirmation/resume_v7/verification/fresh_joint_cases_independent_v4/INDEPENDENT_FRESH_JOINT_CASE_REPLAY.json",
+      "receipt_sha256": "139d3970f00a11bdde77299d680d479980d53c9529ad14513bc12bf249c5a087",
+      "verification_coverage": {
+        "accepted_joint_seals_verified": 2,
+        "development_bank_cohort_pairs_replayed": 6,
+        "expected_development_bank_cohort_pairs": 6,
+        "fitting_provenance_banks": 3,
+        "predefined_source_cases": 3,
+        "source_baselines_reconstructed": 3,
+        "source_model_banks_replayed": 3
+      }
+    }
+  ],
+  "dataset": "HMDA",
+  "historical_costs_condition_specific": {
+    "F4_and_native_reference_identity": {
+      "01": {
+        "exact": true,
+        "lower": 23,
+        "upper": 23
+      },
+      "02": {
+        "exact": false,
+        "lower": 34,
+        "upper": 132
+      },
+      "03": {
+        "exact": false,
+        "lower": 33,
+        "upper": 78
+      }
+    },
+    "F4_only": {
+      "01": {
+        "exact": true,
+        "lower": 23,
+        "upper": 23
+      },
+      "02": {
+        "exact": false,
+        "lower": 34,
+        "upper": 96
+      },
+      "03": {
+        "exact": false,
+        "lower": 33,
+        "upper": 78
+      }
+    },
+    "V5_case12_source_F5": {
+      "exact": true,
+      "lower": 6,
+      "upper": 6
+    },
+    "original_joint_F5": {
+      "01": {
+        "exact": true,
+        "lower": 13,
+        "upper": 13
+      },
+      "02": {
+        "exact": false,
+        "lower": 23,
+        "upper": 61
+      },
+      "03": {
+        "exact": false,
+        "lower": 27,
+        "upper": 78
+      }
+    }
+  },
+  "latest_verified_study": "V7 joint-cohort discovery, separate original A and corrected follow-up B",
+  "preserved_history": {
+    "V4_Texas2022_and_Florida2025": "3/3 on each, separate condition",
+    "V4_selected_Texas2023_retrospective_transfer": "3/3, all49predefinedarmsretained",
+    "V5_later_adaptive_development": "2/3",
+    "V5_original_automatic_primary": "1/3",
+    "V6_Florida2025_transfer": "0/3",
+    "V6_Texas2022_transfer": "3/3",
+    "V6_new_source_pipeline": "3/3, two choice-restoration cases and one zero-record complete case",
+    "original_Georgia2025_confirmation": "0/3"
+  },
+  "rates_must_remain_separate": true,
+  "remaining": [
+    "Original A source-unfair case503 and corrected B case511 have no accepted joint seal. Search failure does not prove infeasibility.",
+    "Close condition-specific minimum-cost intervals, including original jointF5 cases02/03 and V7 accepted families.",
+    "Strict post-method-freeze forward-time confirmation remains unexecuted.",
+    "Finite application rosters do not establish unique-person population inference or general arbitrary-refit guarantees.",
+    "Prior interrupted TX executor actual CPU and cleanup remain UNKNOWN in the saved historical ledger."
+  ],
+  "task": "Retrospective classification of reported lender decisions using declared reported values, missingness and race input.",
+  "verification_scope": {
+    "D_only_fits_per_bank": 44,
+    "all_row_model_reinference": false,
+    "fit_receipts_checked": 264,
+    "fitted_banks": 6,
+    "independent_model_refitting": false,
+    "source": "Full-H raw acceptance/count decisions, all original choice and native utility clauses.",
+    "target": "Complete raw eligibility/metadata and full-H count/arm decisions, sampledmanualmodelparity512fixedeligible rows perbank."
+  }
+}
